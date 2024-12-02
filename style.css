@@ -54,25 +54,25 @@ ul li:last-child {
 	width: 120px;
 }
 .signature {
-	color: #2f3737;
-	font-family: 'Patrick Hand SC';
-	font-size: 0.70rem;
-	text-align: right;
-	position: relative;
-	top: 4px;
-	right: 7px;
-	z-index: -1;
+    color: #2f3737;
+    font-family: 'Patrick Hand SC';
+    font-size: 0.6rem;  /* Уменьшаем размер */
+    text-align: center;  /* Центрируем текст */
+    position: absolute;  /* Используем absolute для точного позиционирования */
+    bottom: 10px;  /* Располагаем внизу калькулятора */
+    left: 50%;
+    transform: translateX(-50%);  /* Центрируем по горизонтали */
 }
 /* Подсветка при наведении на кнопку */
 li:hover {
-    background-color: #FFCCEA; 
-    color: #000;  /* Черный текст для контраста */
-    cursor: pointer;  /* Указатель при наведении */
-    transition: background-color 0.3s ease;  /* Плавное изменение фона */
+    background-color: #FFCCEA;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /* Подсветка для нажатой кнопки */
 li.active {
-    background-color: #EFB6C8;  
-    color: white;  /* Белый текст */
+    background-color: #EFB6C8;
+    color: white;
 }
