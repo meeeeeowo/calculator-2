@@ -58,11 +58,12 @@ ul li:last-child {
     font-family: 'Patrick Hand SC';
     font-size: 0.6rem;  /* Уменьшаем размер */
     text-align: center;  /* Центрируем текст */
-    position: absolute;  /* Используем absolute для точного позиционирования */
-    bottom: 10px;  /* Располагаем внизу калькулятора */
+    position: absolute;
+    bottom: 20px;  /* Увеличиваем значение, чтобы опустить подпись */
     left: 50%;
     transform: translateX(-50%);  /* Центрируем по горизонтали */
 }
+
 /* Подсветка при наведении на кнопку */
 li:hover {
     background-color: #FFCCEA;
